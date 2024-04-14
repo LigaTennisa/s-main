@@ -130,6 +130,7 @@ main {
 }
 
 .form-field {
+    margin: 10px;
     margin-bottom: 13px;
     left: 0px;
     right: 0px;
@@ -153,4 +154,10 @@ main {
     padding-bottom: 10px;  
     margin: 0 auto; /*отцентрирует блок по центру родительского элемента */
     display: block;
+}
+
+.text-center {
+    margin: 0 auto;
+    text-align: center;
+    margin: 10px;
 }

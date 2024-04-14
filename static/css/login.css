@@ -32,6 +32,7 @@ main {
 
 .circle{
     position: absolute;
+    
     z-index: 1;
     width: 2534px;
     height: 2534px ;
@@ -64,13 +65,14 @@ main {
         height: 1000px;
     }
     100% {
-        width: 400px;
-        height: 400px;
+        width: 500px;
+        height: 500px;
     }
 }
 
 .login-form-container {
     font-family: Montserrat;
+    transform: translateY(-50%);
     opacity: 0;
     position: relative;
     top: 70px;
@@ -113,7 +115,7 @@ main {
 .help {
     color: black;
     text-decoration: none;
-    margin: auto;
+    margin: 10px;
     display: block; 
     text-align: center;
 }
@@ -149,4 +151,9 @@ main {
     padding-bottom: 10px;  
     margin: 0 auto; /*отцентрирует блок по центру родительского элемента */
     display: block;
+}
+.text-center {
+    margin: 0 auto;
+    text-align: center;
+    margin: 10px;
 }
